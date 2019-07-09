@@ -50,4 +50,4 @@ for e in range(episode_count + 1):
 			agent.expReplay(batch_size)
 
 	if e % 10 == 0:
-		agent.model.save("models/model_ep" + str(e))
+		agent.model.save("model/model_ep" + str(e))
